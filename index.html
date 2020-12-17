@@ -9,7 +9,7 @@
   
   <body>
   
-   <ul>
+   <ul id="myUL">
         <li><a class="active" href="index.html">Anasayfa</a></li>
         <li><a href="yazilar.html">Yazılar</a></li>
         <li><a href="#benkimim">Bruh</a></li>
@@ -24,7 +24,7 @@
   
   <script>
 // Add active class to the current button (highlight it)
-var header = document.getElementById("myDIV");
+var header = document.getElementById("myUL");
 var btns = header.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
