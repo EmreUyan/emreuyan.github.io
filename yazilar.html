@@ -9,8 +9,8 @@
 
 <body>
 <ul>
-        <li><a class="active" href="index.html">Anasayfa</a></li>
-        <li><a href="yazilar.html">Yazılar</a></li>
+        <li><a href="index.html">Anasayfa</a></li>
+        <li><a class="active" href="yazilar.html">Yazılar</a></li>
         <li><a href="#benkimim">Bruh</a></li>
     </ul>
   
@@ -18,18 +18,7 @@
   
 <p>Merhabalar</p>
 
-<script>
-// Add active class to the current button (highlight it)
-var header = document.getElementById("myUL");
-var btns = header.getElementsByClassName("ul");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
-</script>
+
 </body
 
 
