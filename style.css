@@ -40,7 +40,7 @@ a.three:hover {background:#66ff66;}
 
 
 a.five:link {color:##00008B;text-decoration:none;}
-a.five:vissited {color:##00008B;text-decoration:none;}
+a.five:visited {color:##00008B;text-decoration:none;}
 a.five:hover {text-decoration:underline;}
 
 
