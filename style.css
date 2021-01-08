@@ -39,8 +39,8 @@ a.three:visited {color:#0000ff;}
 a.three:hover {background:#66ff66;}
 
 
-a.five:link {color:#0000FF;text-decoration:none;}
-a.five:vissited {color:#0000FF;text-decoration:none;}
+a.five:link {color:##00008B;text-decoration:none;}
+a.five:vissited {color:##00008B;text-decoration:none;}
 a.five:hover {text-decoration:underline;}
 
 
