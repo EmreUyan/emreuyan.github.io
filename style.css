@@ -23,12 +23,40 @@ a {
 
 }
 
+h1 {
+
+    line-height: 0;
+    margin: 8px 8px 8px 0px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 18px;
+    font-family:Arial, Helvetica, sans-serif ;
+    display: block;
+    border-bottom: 1px solid rgb(16, 16, 16);
+
+}
+
+footer {
+
+  display: block;
+  text-align: center;
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  padding-top: 20px;
+
+}
+
 
 .main {
 
-    padding-left: 170px;
+    margin-left: 160px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     font-size: larger;
-
+    line-height: 28px;
 }
 
 
@@ -55,6 +83,10 @@ a {
 .sidebar a:hover {
     color: #f1f1f1;
 }
+
+
+
+
 
 
 @media screen and (max-width: 600px) {
