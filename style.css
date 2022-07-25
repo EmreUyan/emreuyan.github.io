@@ -1,5 +1,70 @@
+* {
+
+margin: 0px;
+
+}
+
+
 body {
 
     background-color: #f6f6f6;
 
 }
+
+p {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.main {
+
+    padding-left: 170px;
+    font-size: larger;
+
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 40px;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    line-height: 40px;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+
+@media screen and (max-width: 600px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      padding-top: 10px;
+    }
+    .sidebar a {float: left;}
+    div.main {padding-left: 10px;}
+  }
+  
