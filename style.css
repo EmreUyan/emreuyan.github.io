@@ -27,7 +27,7 @@ a {
 h1 {
 
     line-height: 0;
-    margin: 8px 8px 8px 0px;
+    margin: 0px 8px 8px 0px;
     padding-bottom: 10px;
     width: 100%;
     height: 18px;
@@ -37,21 +37,6 @@ h1 {
 
 }
 
-header {
-
-   display: block;
-   margin-bottom: 0px;
-   padding-right: 60px;
-   position: absolute;
-   left: 94%;
-
-}
-
-header a {
-
-  float: right;
-
-}
 
 
 footer {
@@ -73,7 +58,7 @@ footer {
 
     margin-left: 160px;
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-right: 20px;
     padding-bottom: 20px;
     font-size: larger;
@@ -105,6 +90,9 @@ footer {
 .sidebar a:hover {
     color: #f1f1f1;
 }
+
+
+
 
 
 
