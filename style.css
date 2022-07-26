@@ -8,6 +8,7 @@ margin: 0px;
 body {
 
     background-color: #f6f6f6;
+    background-image: linear-gradient(#f6f6f6, #efefef,);
 
 }
 
@@ -36,6 +37,23 @@ h1 {
 
 }
 
+header {
+
+   display: block;
+   margin-bottom: 0px;
+   padding-right: 60px;
+   position: absolute;
+   left: 94%;
+
+}
+
+header a {
+
+  float: right;
+
+}
+
+
 footer {
 
   display: block;
@@ -44,6 +62,9 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   padding-top: 20px;
+  margin-top: 20px;
+  color: #5e5e5e;
+  border-top: 1px solid rgb(16, 16, 16);
 
 }
 
@@ -52,7 +73,7 @@ footer {
 
     margin-left: 160px;
     padding-left: 20px;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     font-size: larger;
@@ -70,6 +91,7 @@ footer {
     background-color: #111;
     overflow-x: hidden;
     padding-top: 40px;
+    box-shadow: 5px 10px 18px #888888;
 }
 
 .sidebar a {
@@ -83,6 +105,7 @@ footer {
 .sidebar a:hover {
     color: #f1f1f1;
 }
+
 
 
 
