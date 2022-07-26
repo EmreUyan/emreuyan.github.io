@@ -97,7 +97,7 @@ footer {
       padding-top: 10px;
     }
     .sidebar a {float: left;}
-    div.main {padding-left: 10px;}
+    div.main {margin-left: 10px;}
   }
 
   @media screen and (max-width: 495px) {
