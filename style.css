@@ -99,4 +99,12 @@ footer {
     .sidebar a {float: left;}
     div.main {padding-left: 10px;}
   }
+
+  @media screen and (max-width: 495px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+      display: block;
+    }
+  }
   
