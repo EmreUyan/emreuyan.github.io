@@ -140,6 +140,13 @@ table td {
     width: 100%;
 }
 
+.clock {
+
+  font-weight: bold;
+  font-family: 'digital-clock-font';
+  font-size: x-large;
+  float: right;
+}
 
 
 
@@ -168,4 +175,9 @@ table td {
       display: block;
     }
   }
+
+  @font-face{
+    font-family:'digital-clock-font';
+    src: url('fontlar/digital-7.ttf');
+   }
   
