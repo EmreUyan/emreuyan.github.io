@@ -144,8 +144,11 @@ table td {
 
   font-weight: bold;
   font-family: 'digital-clock-font';
-  font-size: x-large;
+  font-size: xx-large;
   float: right;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 
