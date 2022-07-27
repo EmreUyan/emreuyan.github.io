@@ -146,9 +146,11 @@ table td {
   font-family: 'digital-clock-font';
   font-size: xx-large;
   float: right;
-  background: -webkit-linear-gradient(#eee, #333);
+  background-clip: border-box;
+  background: -webkit-linear-gradient(rgb(125, 125, 125), rgb(50, 50, 50));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  padding-right: 10px;
 }
 
 
@@ -177,6 +179,8 @@ table td {
       float: none;
       display: block;
     }
+
+    table {width: 100%; margin:0;}
   }
 
   @font-face{
