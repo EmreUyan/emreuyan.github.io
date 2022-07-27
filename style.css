@@ -75,20 +75,26 @@ footer {
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding-top: 40px;
+    padding-top: 10px;
     box-shadow: 5px 10px 18px #888888;
 }
 
 .sidebar a {
-    padding: 6px 8px 6px 16px;
+    padding: 6px 8px 6px 23px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     line-height: 40px;
+    text-align: center;
 }
 
 .sidebar a:hover {
     color: #f1f1f1;
+}
+
+.logo {
+
+    width: 100%;
 }
 
 
@@ -105,13 +111,14 @@ footer {
       width: 100%;
       height: auto;
       position: relative;
-      padding-top: 10px;
+      padding-top: 4px;
     }
     .sidebar a {float: left;}
     div.main {margin-left: 10px;}
+    img {display: none;}
   }
 
-  @media screen and (max-width: 495px) {
+  @media screen and (max-width: 530px) {
     .sidebar a {
       text-align: center;
       float: none;
