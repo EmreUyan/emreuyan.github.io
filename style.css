@@ -61,7 +61,7 @@ table {
   border: 1px solid #aaa;
   border-collapse: collapse;
   color: black;
-
+  width: 100%;
 }
 
 table th {
@@ -151,7 +151,7 @@ a.pageLink:hover {
   text-decoration: underline;
 }
 
-.subtitle {
+.pageSub {
 
   display: block;
   font-size: smaller;
@@ -169,6 +169,21 @@ a.pageLink:hover {
 
 }
 
+.infobox {
+
+float: left;
+background-color: rgb(220, 220, 220);
+border: 1px solid black;
+width: auto;
+height: 100%;
+padding: 8px 18px 10px 18px; 
+text-align: center;
+margin-right: 10px;
+border-radius: 1px;
+font-size: medium;
+
+
+}
 
 
 
