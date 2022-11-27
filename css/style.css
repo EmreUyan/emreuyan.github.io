@@ -200,10 +200,9 @@ font-size: medium;
 .contentBoxBody {
 
   display: block;
-  height: min-content;
   border: 1px solid #c4daf4;
   background-color:#f5faff;
-  height: 200px;
+  height: 1000px;
 }
 
 .contentBoxTitleHeading {
@@ -217,24 +216,24 @@ font-size: medium;
   display: block;
   width: 48%;
   float: left;
-  background-color: #818181;
-  margin-left: 10px;
-
-  
+  padding-left: 10px;
+  text-align: center;
 }
 
 .contentBoxColumn2 {
   display: block;
   width: 48%;
   float: right;
-  background-color: #818181;
   margin-right: 10px;
+  text-align: center;
 }
 
 .contentBoxColumnTitle {
-  background-color: #83bdff;
+
   border-bottom: 1px solid black;
   text-align: center;
+  padding: 5px;
+  font-weight: bolder;
 }
 
 
