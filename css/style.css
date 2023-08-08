@@ -180,7 +180,7 @@ border-radius: 5px;
 }
 
 
-.imageBox {
+.resimkutusu {
   
   background-color:rgb(221, 221, 221);
   padding: 0px 0px 10px 0px;
@@ -197,7 +197,7 @@ border-radius: 5px;
 
 }
 
-.imageBoxImage {
+.resimkutusuresmi {
 
   width: 100%;
   margin-left: auto;
@@ -245,8 +245,16 @@ border-radius: 5px;
   background-color: #353535;
 }
 
+.geri {
+  float: right;
+  padding: 6px;
+  margin-right: 1px;
+  background-color: #f6f6f6;
+  border: 1px outset rgb(16, 16, 16);
+  border-bottom: none;
+}
 
-
+.geri:hover{background: #ebebeb;}
 
 @media screen and (max-width: 600px) {
   .sidebar {
