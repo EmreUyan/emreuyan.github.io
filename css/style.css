@@ -24,6 +24,7 @@ a {
 
 }
 
+b {font-family: Arial, Helvetica, sans-serif;}
 
 h1 {
 
@@ -38,7 +39,16 @@ h1 {
 
 }
 
-h2 {font-family: Arial, Helvetica, sans-serif; border-bottom: 1px solid black; text-align: center;}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  color: crimson;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
 
 footer {
 
@@ -179,6 +189,14 @@ font-size: medium;
 border-radius: 5px;
 }
 
+.resim {
+    width: 25%;
+    float: right;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
 
 .resimkutusu {
   
@@ -190,11 +208,11 @@ border-radius: 5px;
   float: right;
   font-weight: light;
   font-size: medium;
-  margin-top: 7px;
+  margin-top: px;
   margin-left: 5px;
-  margin-bottom: 1px;
+  margin-bottom: 5px;
   border-radius: 5px;
-
+  
 }
 
 .resimkutusuresmi {
@@ -277,6 +295,8 @@ border-radius: 5px;
   }
 
   .imageBox {width: 200px;}
+
+  .resim{width: 40%}
 }
 
 @media screen and (max-width: 530px) {
@@ -305,5 +325,7 @@ border-radius: 5px;
   .imageBox {width: 150px;}
 
   #bookmark {display: none;}
+
+  .resim{width: 50%}
 
 }
